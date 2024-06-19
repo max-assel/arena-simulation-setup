@@ -1,0 +1,62 @@
+controllers:
+  - name: DynamicGapPlanner
+    type: dynamic_gap/DynamicGapPlanner
+
+controller_frequency: 5.0
+controller_patience: 15.0
+planner_frequency: 0.0
+
+DynamicGapPlanner:
+  # planning information
+  holonomic: true
+  projection_operator: false
+  egocircle_prop_cheat: true
+  gap_feasibility_check: true
+  perfect_gap_models: true
+  future_scan_propagation: true
+
+  # manual control
+  man_ctrl: false
+
+  # goal param
+  xy_goal_tolerance: 0.2
+  xy_waypoint_tolerance: 0.1
+
+  # gap detection
+  max_idx_diff: 256
+
+  # gap association
+  assoc_thresh: 0.15
+
+  # gap manipulation
+  epsilon1: 0.20
+  epsilon2: 0.30
+  reduction_threshold: 3.14159265
+  radial_extend: true
+  radial_convert: true
+
+  # trajectory
+  integrate_maxt: 5.0
+  integrate_stept: 0.5
+  max_pose_pen_dist: 0.5
+  cobs: -1.0
+  pose_exp_weight: 5.0
+  inf_ratio: 1.21
+  terminal_weight: 10.0
+  num_curve_points: 50
+
+  # control
+  k_fb_x: 0.5
+  k_fb_y: 0.5
+  k_fb_theta: 0.5
+  ctrl_ahead_pose: 2
+
+  # projection params
+  k_po_x: 1.0
+  k_po_theta: 1.0
+
+  r_unity: 0.35
+  r_zero: 1.0
+
+  cbf_param: 0.1
+  k_CBF: 1.0
