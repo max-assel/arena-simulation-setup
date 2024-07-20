@@ -17,7 +17,7 @@
       file="$(find arena_simulation_setup)/entities/robots/$(arg model)/configs/mbf/dgap_local_planner_params.yaml"
       command="load" subst_value="True" />
 
-    <param name="base_local_planner" value="DynamicGapPlanner" />
+    <param name="base_local_planner" value="DynamicGapPlannerROS" />
   </group>
 
   <!-- temp -->
@@ -27,6 +27,6 @@
     <rosparam
       file="$(find arena_simulation_setup)/entities/robots/$(arg model)/configs/mbf/dgap_local_planner_params.yaml"
       command="load" subst_value="True" />
-    <param name="base_local_planner" value="DynamicGapPlanner" />
+    <param name="base_local_planner" value="DynamicGapPlannerROS" />
   </group>
 </launch>

@@ -1,14 +1,13 @@
 controllers:
-  - name: DynamicGapPlanner
-    type: dynamic_gap/DynamicGapPlanner
+  - name: DynamicGapPlannerROS
+    type: dynamic_gap/DynamicGapPlannerROS
 
 controller_frequency: 5.0
 controller_patience: 15.0
 planner_frequency: 0.0
 
-DynamicGapPlanner:
-  # planning information
-  holonomic: true
+DynamicGapPlannerROS:
+  holonomic: true   # planning information
   projection_operator: false
   egocircle_prop_cheat: true
   gap_feasibility_check: true
