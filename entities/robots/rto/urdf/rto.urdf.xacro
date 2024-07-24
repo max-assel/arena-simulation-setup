@@ -2,7 +2,7 @@
 <robot name="rto" xmlns:xacro="http://wiki.ros.org/xacro">
   <xacro:include filename="$(find arena_simulation_setup)/entities/robots/rto/urdf/components/rto_parts.urdf.xacro"/>
   <xacro:include filename="$(find arena_simulation_setup)/entities/robots/rto/urdf/components/rto_body.urdf.xacro"/>
-  <xacro:include filename="$(find arena_simulation_setup)/entities/robots/rto/urdf/sensors/hokuyo.urdf.xacro"/>
+  <xacro:include filename="$(find arena_simulation_setup)/entities/robots/rto/urdf/sensors/full_scanner.urdf.xacro"/>
   <xacro:rto_body/>
 
   <xacro:plate parent="base_link" name="plate"/>

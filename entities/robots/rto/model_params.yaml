@@ -33,9 +33,9 @@ actions:
     angular_range: [-1.0, 1.0] # Maximum rotational velocity in rad/s
 laser:
   angle:
-    min: -2.39983
-    max: 2.39983
-    increment: 0.0087
+    min: -3.14159265359
+    max: 3.14159265359
+    increment: 0.0122718463
   update_rate: 10
-  range: 50.0
-  num_beams: 552
+  range: 5.6 # 50.0
+  num_beams: 512
