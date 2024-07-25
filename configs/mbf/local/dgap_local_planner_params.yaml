@@ -45,9 +45,9 @@ DynamicGapPlannerROS:
   num_curve_points: 50
 
   # control
-  k_fb_x: 0.5
-  k_fb_y: 0.5
-  k_fb_theta: 0.5
+  k_fb_x: 1.5
+  k_fb_y: 1.5
+  k_fb_theta: 1.5
   ctrl_ahead_pose: 2
 
   # projection params
