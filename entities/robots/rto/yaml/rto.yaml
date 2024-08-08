@@ -15,8 +15,8 @@ bodies: # List of named bodies
         sensor: false
 
 plugins:
-  - type: DiffDrive
-    name: diff_drive
+  - type: Holo
+    name: holo
     body: base_link
     odom_frame_id: odom
     odom_pub: odom # topic odom is published on
