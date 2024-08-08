@@ -18,7 +18,7 @@ DynamicGapPlannerROS:
   man_ctrl: false
 
   # goal param
-  xy_goal_tolerance: 0.2
+  xy_goal_tolerance: 0.5
   xy_waypoint_tolerance: 0.1
 
   # gap detection
