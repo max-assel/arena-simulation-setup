@@ -8,10 +8,10 @@ planner_frequency: 0.0
 
 DynamicGapPlannerROS:
   holonomic: true   # planning information
-  projection_operator: false
-  egocircle_prop_cheat: true
+  projection_operator: true
+  egocircle_prop_cheat: false
   gap_feasibility_check: true
-  perfect_gap_models: true
+  perfect_gap_models: false
   future_scan_propagation: true
 
   # manual control
@@ -19,30 +19,19 @@ DynamicGapPlannerROS:
 
   # goal param
   xy_goal_tolerance: 0.5
-  xy_waypoint_tolerance: 0.1
-
-  # gap detection
-  max_idx_diff: 256
 
   # gap association
-  assoc_thresh: 0.15
+  assoc_thresh: 0.5
 
   # gap manipulation
   epsilon1: 0.20
   epsilon2: 0.30
-  reduction_threshold: 3.14159265
   radial_extend: true
-  radial_convert: true
 
   # trajectory
   integrate_maxt: 5.0
   integrate_stept: 0.5
-  max_pose_pen_dist: 0.5
-  cobs: -1.0
-  pose_exp_weight: 5.0
   inf_ratio: 1.21
-  terminal_weight: 10.0
-  num_curve_points: 50
 
   # control
   k_fb_x: 1.5
@@ -56,6 +45,3 @@ DynamicGapPlannerROS:
 
   r_unity: 0.35
   r_zero: 1.0
-
-  cbf_param: 0.1
-  k_CBF: 1.0

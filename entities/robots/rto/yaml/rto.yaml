@@ -15,11 +15,12 @@ bodies: # List of named bodies
         sensor: false
 
 plugins:
-  - type: HoloSecondOrder
-    name: holo_second_order
+  - type: HoloSecondOrder # Holo
+    name: holo_second_order # holo
     body: base_link
     odom_frame_id: odom
     odom_pub: odom # topic odom is published on
+    acc_pub: acc
     twist_sub: cmd_vel
     pub_rate: 10
 
