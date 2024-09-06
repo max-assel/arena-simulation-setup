@@ -26,8 +26,6 @@ TebLocalPlannerROS:
   footprint_model:
     type: point
 
+  # GoalTolerance
   xy_goal_tolerance: 0.25
   yaw_goal_tolerance: 6.28
-
-  # GoalTolerance
-
