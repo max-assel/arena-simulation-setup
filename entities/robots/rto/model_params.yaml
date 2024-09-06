@@ -6,7 +6,7 @@ is_holonomic: True
 actions:
   discrete:
     - name: move_forward
-      linear: 2.78
+      linear: 1.0
       angular: 0.0
     - name: move_backward
       linear: -0.15
@@ -27,9 +27,9 @@ actions:
       linear: 0.0
       angular: 0.0
   continuous:
-    linear_range: [-2.78, 2.78]
-      # x: [-2.78, 2.78] # Maximum translational velocity in m/s
-      # y: [-2.78, 2.78]
+    linear_range: [-1.0, 1.0]
+      # x: [-1.0, 1.0] # Maximum translational velocity in m/s
+      # y: [-1.0, 1.0]
     angular_range: [-1.0, 1.0] # Maximum rotational velocity in rad/s
 laser:
   angle:
