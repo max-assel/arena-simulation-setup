@@ -54,8 +54,8 @@ MpcLocalPlannerROS:
         radius: 5
   controller:
     outer_ocp_iterations: 1
-    xy_goal_tolerance: 0.2
-    yaw_goal_tolerance: 0.1
+    xy_goal_tolerance: 0.25
+    yaw_goal_tolerance: 6.28
     global_plan_overwrite_orientation: true
     global_plan_prune_distance: 1.0
     allow_init_with_backward_motion: true

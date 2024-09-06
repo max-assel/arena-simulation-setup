@@ -7,8 +7,8 @@ controller_patience: 15.0
 planner_frequency: 0.0
 
 TebLocalPlannerROS:
-  xy_goal_tolerance: 0.2
-  yaw_goal_tolerance: 0.1
+  xy_goal_tolerance: 0.25
+  yaw_goal_tolerance: 6.28
   free_goal_vel: false
   complete_global_plan: true
   min_obstacle_dist: 0.25

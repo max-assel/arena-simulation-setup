@@ -7,16 +7,23 @@ MpcLocalPlannerROS:
     # speed is significantly lower than with the teb
     # sometimes cannot react to pedestrians
 
+  # GoalTolerance
+  xy_goal_tolerance: 0.25
+  yaw_goal_tolerance: 6.28
+
   ## Robot settings
   robot:
     type: unicycle
     unicycle:
-      max_vel_x: 2.78
-      max_vel_x_backwards: 2.78
+      max_vel_x: 1.0
+      max_vel_x_backwards: 1.0
+      max_vel_y: 1.0
       max_vel_theta: 1.0
-      acc_lim_x: 2.5 # deactive bounds with zero
-      dec_lim_x: 0.2 # deactive bounds with zero
-      acc_lim_theta: 3.2 # deactivate bounds with zero
+      acc_lim_x: 5.0 # deactive bounds with zero
+      dec_lim_x: 5.0 # deactive bounds with zero
+      acc_lim_y: 5.0
+      dec_lim_y: 5.0 # deactive bounds with zero
+      acc_lim_theta: 5.0 # deactivate bounds with zero
 
   ## Footprint model for collision avoidance
   footprint_model:
@@ -26,7 +33,7 @@ MpcLocalPlannerROS:
   ## Collision avoidance
   collision_avoidance:
     min_obstacle_dist: 0.225 # Note, this parameter must be chosen w.r.t. the footprint_model
-    enable_dynamic_obstacles: false
+    enable_dynamic_obstacles: true
     force_inclusion_dist: 0.5
     cutoff_dist: 5
     include_costmap_obstacles: true

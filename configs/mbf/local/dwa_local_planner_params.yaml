@@ -18,8 +18,8 @@ DwaLocalPlannerROS:
   forward_point_distance: 0.325
   min_vel_trans: .1
   acc_lim_y: 2.5
-  xy_goal_tolerance: 0.05
-  yaw_goal_tolerance: 0.17
+  xy_goal_tolerance: 0.25
+  yaw_goal_tolerance: 6.28
   latch_xy_goal_tolerance: false
   vy_samples: 0
   vth_samples: 40

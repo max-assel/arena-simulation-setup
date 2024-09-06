@@ -18,8 +18,8 @@ DynamicGapPlannerROS:
   man_ctrl: false
 
   # goal param
-  xy_goal_tolerance: 0.5
-  yaw_goal_tolerance: 6.2830
+  xy_goal_tolerance: 0.25
+  yaw_goal_tolerance: 6.28
 
   # gap association
   assoc_thresh: 0.5
