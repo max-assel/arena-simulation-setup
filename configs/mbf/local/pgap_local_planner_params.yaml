@@ -30,8 +30,8 @@ PotentialGapPlannerROS:
     feasi_inflated: True
     v_lin_x_const: 0.0
     v_lin_y_const: 0.0
-    k_drive_x: 2
-    k_drive_y: 2
+    k_drive_x: 5
+    k_drive_y: 5
     k_turn: 0.8
 
     projection_inflated: False
