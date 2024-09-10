@@ -11,4 +11,4 @@ planner_frequency: 0.0
 
 TrajectoryPlannerROS:
   odom_topic: odom
-  max_vel_x: $(arg speed)
+  max_vel_x: 1.0

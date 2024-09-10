@@ -8,8 +8,8 @@ planner_frequency: 0.0
 
 PotentialGapPlannerROS:
     goal_tolerance: 0.5
-    yaw_goal_tolerance: 3.15 
-    xy_goal_tolerance: .1    
+    yaw_goal_tolerance: 6.28
+    xy_goal_tolerance: 0.25    
     
     min_resoln: 1
     gap_diff: 0.1
