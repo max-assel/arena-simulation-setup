@@ -49,6 +49,7 @@
       command="load" subst_value="True" />
 
     <param name="base_local_planner" value="TebLocalPlannerROS" />
+
   </group>
 
   <!-- move_base -->
