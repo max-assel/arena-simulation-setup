@@ -36,6 +36,6 @@ laser:
     min: -3.14159265359
     max: 3.14159265359
     increment: 0.0122718463
-  update_rate: 10
-  range: 5.5 # 50.0
+  update_rate: 25
+  range: 5.0 # 50.0
   num_beams: 512

@@ -31,7 +31,7 @@ plugins:
     body: base_link
     broadcast_tf: true
     origin: [0.0, 0.0, 0.0] # from: https://github.com/ignc-research/arena-rosnav-3D/blob/main/arena_simulation_setup/entities/robots/rto/urdf/rto.urdf.xacro
-    range: 5.5 # 50.0
+    range: 5.0 # 50.0
     angle: { min: -3.14159265359, max: 3.14159265359, increment: 0.0122718463 } # (2 * PI / 512); 512 = samples (from: https://github.com/ignc-research/arena-rosnav-3D/blob/476f3106a46390324749d41ca6e81d4ee4f462bb/arena_simulation_setup/entities/robots/rto/urdf/sensors/hokuyo.urdf.xacro#L54)
     noise_std_dev: 0.0
     update_rate: 25
