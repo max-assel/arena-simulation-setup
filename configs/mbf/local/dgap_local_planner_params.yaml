@@ -32,7 +32,7 @@ DynamicGapPlannerROS:
   # trajectory
   integrate_maxt: 5.0
   integrate_stept: 0.5
-  inf_ratio: 1.21
+  inf_ratio: 1.5
 
   # control
   k_fb_x: 1.5
