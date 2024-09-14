@@ -3,12 +3,12 @@
         {
             "start": [
                 1.5,
-                2,
+                18,
                 0.0
             ],
             "goal": [
                 30,
-                14,
+                2,
                 0.0
             ]
         }
@@ -19,6 +19,52 @@
             {
                 "name": "agent0",
                 "pos": [
+                    28.5,
+                    18,
+                    0.0
+                ],
+                "type": "adult",
+                "model": "actor1",
+                "waypoints": [
+                    [
+                        28.5,
+                        18,
+                        0.0
+                    ],
+                    [
+                        20,
+                        22,
+                        0.0
+                    ]
+                ],
+                "waypoint_mode": 1
+            },
+            {
+                "name": "agent1",
+                "pos": [
+                    25,
+                    6,
+                    0.0
+                ],
+                "type": "adult",
+                "model": "actor1",
+                "waypoints": [
+                    [
+                        25,
+                        6,
+                        0.0
+                    ],
+                    [
+                        5,
+                        2,
+                        0.0
+                    ]
+                ],
+                "waypoint_mode": 1
+            },
+            {
+                "name": "agent2",
+                "pos": [
                     15,
                     2,
                     0.0
@@ -32,53 +78,7 @@
                         0.0
                     ],
                     [
-                        20,
                         10,
-                        0.0
-                    ]
-                ],
-                "waypoint_mode": 1
-            },
-            {
-                "name": "agent1",
-                "pos": [
-                    10,
-                    22,
-                    0.0
-                ],
-                "type": "adult",
-                "model": "actor1",
-                "waypoints": [
-                    [
-                        10,
-                        22,
-                        0.0
-                    ],
-                    [
-                        5,
-                        18,
-                        0.0
-                    ]
-                ],
-                "waypoint_mode": 1
-            },
-            {
-                "name": "agent2",
-                "pos": [
-                    10,
-                    2,
-                    0.0
-                ],
-                "type": "adult",
-                "model": "actor1",
-                "waypoints": [
-                    [
-                        10,
-                        2,
-                        0.0
-                    ],
-                    [
-                        5,
                         14,
                         0.0
                     ]
@@ -88,21 +88,21 @@
             {
                 "name": "agent3",
                 "pos": [
-                    15,
-                    10,
+                    20,
+                    2,
                     0.0
                 ],
                 "type": "adult",
                 "model": "actor1",
                 "waypoints": [
                     [
-                        15,
-                        10,
+                        20,
+                        2,
                         0.0
                     ],
                     [
-                        15,
-                        14,
+                        5,
+                        18,
                         0.0
                     ]
                 ],
@@ -111,21 +111,21 @@
             {
                 "name": "agent4",
                 "pos": [
-                    28.5,
-                    22,
+                    10,
+                    6,
                     0.0
                 ],
                 "type": "adult",
                 "model": "actor1",
                 "waypoints": [
                     [
-                        28.5,
-                        22,
+                        10,
+                        6,
                         0.0
                     ],
                     [
-                        20,
-                        22,
+                        5,
+                        14,
                         0.0
                     ]
                 ],
@@ -134,85 +134,16 @@
             {
                 "name": "agent5",
                 "pos": [
-                    15,
-                    6,
+                    25,
+                    10,
                     0.0
                 ],
                 "type": "adult",
                 "model": "actor1",
                 "waypoints": [
                     [
-                        15,
-                        6,
-                        0.0
-                    ],
-                    [
-                        20,
-                        14,
-                        0.0
-                    ]
-                ],
-                "waypoint_mode": 1
-            },
-            {
-                "name": "agent6",
-                "pos": [
-                    5,
-                    22,
-                    0.0
-                ],
-                "type": "adult",
-                "model": "actor1",
-                "waypoints": [
-                    [
-                        5,
-                        22,
-                        0.0
-                    ],
-                    [
-                        5,
-                        2,
-                        0.0
-                    ]
-                ],
-                "waypoint_mode": 1
-            },
-            {
-                "name": "agent7",
-                "pos": [
-                    28.5,
-                    6,
-                    0.0
-                ],
-                "type": "adult",
-                "model": "actor1",
-                "waypoints": [
-                    [
-                        28.5,
-                        6,
-                        0.0
-                    ],
-                    [
-                        28.5,
-                        2,
-                        0.0
-                    ]
-                ],
-                "waypoint_mode": 1
-            },
-            {
-                "name": "agent8",
-                "pos": [
-                    28.5,
-                    18,
-                    0.0
-                ],
-                "type": "adult",
-                "model": "actor1",
-                "waypoints": [
-                    [
-                        28.5,
-                        18,
+                        25,
+                        10,
                         0.0
                     ],
                     [
@@ -224,10 +155,10 @@
                 "waypoint_mode": 1
             },
             {
-                "name": "agent9",
+                "name": "agent6",
                 "pos": [
                     10,
-                    14,
+                    18,
                     0.0
                 ],
                 "type": "adult",
@@ -235,12 +166,81 @@
                 "waypoints": [
                     [
                         10,
+                        18,
+                        0.0
+                    ],
+                    [
+                        20,
+                        10,
+                        0.0
+                    ]
+                ],
+                "waypoint_mode": 1
+            },
+            {
+                "name": "agent7",
+                "pos": [
+                    5,
+                    6,
+                    0.0
+                ],
+                "type": "adult",
+                "model": "actor1",
+                "waypoints": [
+                    [
+                        5,
+                        6,
+                        0.0
+                    ],
+                    [
+                        15,
+                        18,
+                        0.0
+                    ]
+                ],
+                "waypoint_mode": 1
+            },
+            {
+                "name": "agent8",
+                "pos": [
+                    25,
+                    18,
+                    0.0
+                ],
+                "type": "adult",
+                "model": "actor1",
+                "waypoints": [
+                    [
+                        25,
+                        18,
+                        0.0
+                    ],
+                    [
+                        5,
+                        10,
+                        0.0
+                    ]
+                ],
+                "waypoint_mode": 1
+            },
+            {
+                "name": "agent9",
+                "pos": [
+                    28.5,
+                    14,
+                    0.0
+                ],
+                "type": "adult",
+                "model": "actor1",
+                "waypoints": [
+                    [
+                        28.5,
                         14,
                         0.0
                     ],
                     [
+                        28.5,
                         10,
-                        18,
                         0.0
                     ]
                 ],
@@ -249,20 +249,20 @@
             {
                 "name": "agent10",
                 "pos": [
-                    5,
-                    10,
+                    28.5,
+                    22,
                     0.0
                 ],
                 "type": "adult",
                 "model": "actor1",
                 "waypoints": [
                     [
-                        5,
-                        10,
+                        28.5,
+                        22,
                         0.0
                     ],
                     [
-                        20,
+                        25,
                         2,
                         0.0
                     ]
@@ -272,66 +272,20 @@
             {
                 "name": "agent11",
                 "pos": [
-                    15,
-                    22,
+                    28.5,
+                    2,
                     0.0
                 ],
                 "type": "adult",
                 "model": "actor1",
                 "waypoints": [
-                    [
-                        15,
-                        22,
-                        0.0
-                    ],
-                    [
-                        25,
-                        14,
-                        0.0
-                    ]
-                ],
-                "waypoint_mode": 1
-            },
-            {
-                "name": "agent12",
-                "pos": [
-                    5,
-                    6,
-                    0.0
-                ],
-                "type": "adult",
-                "model": "actor1",
-                "waypoints": [
-                    [
-                        5,
-                        6,
-                        0.0
-                    ],
-                    [
-                        20,
-                        18,
-                        0.0
-                    ]
-                ],
-                "waypoint_mode": 1
-            },
-            {
-                "name": "agent13",
-                "pos": [
-                    15,
-                    18,
-                    0.0
-                ],
-                "type": "adult",
-                "model": "actor1",
-                "waypoints": [
-                    [
-                        15,
-                        18,
-                        0.0
-                    ],
                     [
                         28.5,
+                        2,
+                        0.0
+                    ],
+                    [
+                        10,
                         10,
                         0.0
                     ]
@@ -339,7 +293,7 @@
                 "waypoint_mode": 1
             },
             {
-                "name": "agent14",
+                "name": "agent12",
                 "pos": [
                     20,
                     6,
@@ -354,8 +308,54 @@
                         0.0
                     ],
                     [
-                        25,
+                        10,
                         2,
+                        0.0
+                    ]
+                ],
+                "waypoint_mode": 1
+            },
+            {
+                "name": "agent13",
+                "pos": [
+                    25,
+                    14,
+                    0.0
+                ],
+                "type": "adult",
+                "model": "actor1",
+                "waypoints": [
+                    [
+                        25,
+                        14,
+                        0.0
+                    ],
+                    [
+                        15,
+                        14,
+                        0.0
+                    ]
+                ],
+                "waypoint_mode": 1
+            },
+            {
+                "name": "agent14",
+                "pos": [
+                    5,
+                    22,
+                    0.0
+                ],
+                "type": "adult",
+                "model": "actor1",
+                "waypoints": [
+                    [
+                        5,
+                        22,
+                        0.0
+                    ],
+                    [
+                        10,
+                        22,
                         0.0
                     ]
                 ],
