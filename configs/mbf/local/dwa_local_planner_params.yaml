@@ -17,7 +17,7 @@ DwaLocalPlannerROS:
   occdist_scale: 0.02
   forward_point_distance: 0.325
   min_vel_trans: .1
-  acc_lim_y: 5.0
+  # acc_lim_y: 5.0
   xy_goal_tolerance: 0.25
   yaw_goal_tolerance: 6.28
   latch_xy_goal_tolerance: false
