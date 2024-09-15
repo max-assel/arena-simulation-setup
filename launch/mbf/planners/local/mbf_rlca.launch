@@ -9,13 +9,14 @@
   <arg name="move_forward_only" default="false"/>
 
   <group ns="move_base_flex">
+    <param name="base_local_planner" value="DwaLocalPlannerROS" />
+
    <rosparam file="$(find arena_simulation_setup)/configs/mbf/local/rlca_planner_params.yaml"
       command="load" subst_value="True" />
     <rosparam
-      file="$(find arena_simulation_setup)/entities/robots/$(arg model)/configs/mbf/dwa_local_planner_params.yaml"
+      file="$(find arena_simulation_setup)/entities/robots/$(arg model)/configs/mbf/rlca_local_planner_params.yaml"
       command="load" subst_value="True" />
 
-    <param name="base_local_planner" value="DwaLocalPlannerROS" />
   </group>
 
  

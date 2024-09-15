@@ -6,7 +6,7 @@ controller_frequency: 5.0
 controller_patience: 15.0
 planner_frequency: 0.0
 
-DwaLocalPlannerROS:
-  - odom_topic: odom
-  - max_vel_x: 1.0
-  - min_vel_x: -1.0
+# DwaLocalPlannerROS:
+#   - odom_topic: odom
+#   - max_vel_x: 0.0
+#   - min_vel_x: 0.0

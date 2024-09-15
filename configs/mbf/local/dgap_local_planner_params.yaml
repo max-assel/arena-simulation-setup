@@ -41,7 +41,7 @@ DynamicGapPlannerROS:
   ctrl_ahead_pose: 2
 
   # projection params
-  k_po_x: 2.0
+  k_po_x: 1.0
 
   r_unity: 0.35
   r_zero: 1.0
