@@ -1,0 +1,31 @@
+{
+    "robots": [
+      {
+        "start": [-10, 0, 0],
+        "goal": [10, 0, 0]
+      }
+    ],
+    "obstacles": {
+  
+      "static": [
+      ],
+  
+      "dynamic": [
+        {
+          "name": "Visitor_1",
+          "pos": [10, 0, 0],
+          "type": "adult",
+          "model": "actor1",
+          "waypoints": [
+              [-10, 0, 0],
+              [10, 0, 0]
+          ],
+          "waypoint_mode": 1
+        }                                            
+      ],
+      "interactive": []
+    },
+    "resets": 50,
+    "map": "arena_corridor"
+  }
+  
