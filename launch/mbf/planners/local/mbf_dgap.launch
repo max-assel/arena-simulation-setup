@@ -30,6 +30,6 @@
     <param name="base_local_planner" value="DynamicGapPlannerROS" />
   </group>
 
-  <!-- <node pkg="rqt_reconfigure" type="rqt_reconfigure" name="rqt_reconfigure" output="screen"/> -->
+  <node pkg="rqt_reconfigure" type="rqt_reconfigure" name="rqt_reconfigure" output="screen"/>
 
 </launch>
