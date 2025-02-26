@@ -16,7 +16,7 @@ DynamicGapPlannerROS:
   future_scan_propagation: true
 
   # manual control
-  man_ctrl: true
+  man_ctrl: false
 
   # goal param
   xy_goal_tolerance: 0.25
